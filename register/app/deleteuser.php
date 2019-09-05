@@ -1,5 +1,5 @@
 <?php
-$url="http://app.icraftsoft.net:6060/users/".$_GET["id"];
+$url="http://lab.icraftsoft.net:6060/users/".$_GET["id"];
 print_r($url);
 $ch = curl_init($url);                                                                      
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE"); 
